@@ -70,6 +70,113 @@ plot!(legend=false)
 ```
 \note{}
 
+# Monthly Trends
+\note{}
+
+## October
+```{julia;echo=false; fig_cap="Total Snowfall in October"; label="totalOct"; fig_width=7; fig_height=4}
+plot(data,:Winter,Symbol("Oct."))
+plot!(xrotation=45)
+plot!(xtickfont=Plots.font("sans-serif",10,:right,:vcenter))
+plot!(ylim=(0,maximum(data[Symbol("Oct.")])*1.1))
+plot!(size=(1000,500))
+plot!(guidefont=font(20))
+plot!(legend=false)
+plot!( makeSMA(data[Symbol("Oct.")],10), linewidth=3)
+```
+\note{}
+
+## November
+```{julia;echo=false; fig_cap="Total Snowfall in November"; label="totalNov"; fig_width=7; fig_height=4}
+plot(data,:Winter,Symbol("Nov."))
+plot!(xrotation=45)
+plot!(xtickfont=Plots.font("sans-serif",10,:right,:vcenter))
+plot!(ylim=(0,maximum(data[Symbol("Nov.")])*1.1))
+plot!(size=(1000,500))
+plot!(guidefont=font(20))
+plot!(legend=false)
+plot!( makeSMA(data[Symbol("Nov.")],10), linewidth=3)
+```
+\note{}
+
+## December
+```{julia;echo=false; fig_cap="Total Snowfall in December"; label="totalDec"; fig_width=7; fig_height=4}
+plot(data,:Winter,Symbol("Dec."))
+plot!(xrotation=45)
+plot!(xtickfont=Plots.font("sans-serif",10,:right,:vcenter))
+plot!(ylim=(0,maximum(data[Symbol("Dec.")])*1.1))
+plot!(size=(1000,500))
+plot!(guidefont=font(20))
+plot!(legend=false)
+plot!( makeSMA(data[Symbol("Dec.")],10), linewidth=3)
+```
+\note{}
+
+## January
+```{julia;echo=false; fig_cap="Total Snowfall in January"; label="totalJan"; fig_width=7; fig_height=4}
+plot(data,:Winter,Symbol("Jan."))
+plot!(xrotation=45)
+plot!(xtickfont=Plots.font("sans-serif",10,:right,:vcenter))
+plot!(ylim=(0,maximum(data[Symbol("Jan.")])*1.1))
+plot!(size=(1000,500))
+plot!(guidefont=font(20))
+plot!(legend=false)
+plot!( makeSMA(data[Symbol("Jan.")],10), linewidth=3)
+```
+\note{}
+
+## Febudary
+```{julia;echo=false; fig_cap="Total Snowfall in Febuary"; label="totalFeb"; fig_width=7; fig_height=4}
+plot(data,:Winter,Symbol("Feb."))
+plot!(xrotation=45)
+plot!(xtickfont=Plots.font("sans-serif",10,:right,:vcenter))
+plot!(ylim=(0,maximum(data[Symbol("Feb.")])*1.1))
+plot!(size=(1000,500))
+plot!(guidefont=font(20))
+plot!(legend=false)
+plot!( makeSMA(data[Symbol("Feb.")],10), linewidth=3)
+```
+\note{}
+
+## March
+```{julia;echo=false; fig_cap="Total Snowfall in March"; label="totalMar"; fig_width=7; fig_height=4}
+plot(data,:Winter,Symbol("Mar."))
+plot!(xrotation=45)
+plot!(xtickfont=Plots.font("sans-serif",10,:right,:vcenter))
+plot!(ylim=(0,maximum(data[Symbol("Mar.")])*1.1))
+plot!(size=(1000,500))
+plot!(guidefont=font(20))
+plot!(legend=false)
+plot!( makeSMA(data[Symbol("Mar.")],10), linewidth=3)
+```
+\note{}
+
+## April
+```{julia;echo=false; fig_cap="Total Snowfall in April"; label="totalApr"; fig_width=7; fig_height=4}
+plot(data,:Winter,Symbol("Apr."))
+plot!(xrotation=45)
+plot!(xtickfont=Plots.font("sans-serif",10,:right,:vcenter))
+plot!(ylim=(0,maximum(data[Symbol("Apr.")])*1.1))
+plot!(size=(1000,500))
+plot!(guidefont=font(20))
+plot!(legend=false)
+plot!( makeSMA(data[Symbol("Apr.")],10), linewidth=3)
+```
+\note{}
+
+## May
+```{julia;echo=false; fig_cap="Total Snowfall in May"; label="totalMay"; fig_width=7; fig_height=4}
+plot(data,:Winter,Symbol("May"))
+plot!(xrotation=45)
+plot!(xtickfont=Plots.font("sans-serif",10,:right,:vcenter))
+plot!(ylim=(0,maximum(data[Symbol("May")])*1.1))
+plot!(size=(1000,500))
+plot!(guidefont=font(20))
+plot!(legend=false)
+plot!( makeSMA(data[Symbol("May")],10), linewidth=3)
+```
+\note{}
+
 ## About the software
 
 - Data Analysis done by Julia
